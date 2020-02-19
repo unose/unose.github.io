@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .docbtn {
+                background-color: #4CAF50;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+            }
+            select{
+                color:red;
+            }
+            option{
+                color:black;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h2 id="topic">Topic</h2>
+        <p id="topicwords"></p>
+        <p id="doc_name"></p>
+        <form calss="custom-select-form">
+            <select calss="selected" size="10" id="sel1" onchange="giveSelectionTopic(this.value, this.options[this.selectedIndex].text)" style="width:450px; font-size:15px;"> 
+                
+            </select>
+            <select size="10" id="sel2" onchange="giveSelectionDoc(this.value)" style="width:300px; font-size:15px;">
+                <option disabled>Select Topic to see Doc list</option>
+            </select>
+            <select size="10" id="sel3" style="width:450px; font-size:15px;">
+                <option disabled>Select Doc to see Topic list</option>
+            </select>
+            <br><br>
+        </form>
+        <button class="docbtn" onclick="seeSelectedDoc()">See Document</button>
+        <script>    
+            var data =  {"topics":{"topic1":{"words":"nucleation_site, signi_cantly, core_level, carbon_solubility","name":"Topic 1", "docs":[{"name":"Doc1"},{"name":"Doc2"},{"name":"Doc3"},{"name":"Doc7"},{"name":"Doc8"},{"name":"Doc9"},{"name":"Doc12"},{"name":"Doc13"},{"name":"Doc17"}]},"topic2":{"words":"oxidative_stress, excess_copper, bio_lm, signi_cantly, con_rme, copper_oxide, copper_excess, growth_condition","name":"Topic 2", "docs":[{"name":"Doc1"},{"name":"Doc2"},{"name":"Doc7"},{"name":"Doc9"},{"name":"Doc11"},{"name":"Doc12"},{"name":"Doc13"},{"name":"Doc17"},{"name":"Doc19"},{"name":"Doc20"}]},"topic3":{"words":"high_temperature, high_quality, room_temperature, low_temperature, large_area, large_scale, web_version, high_resolution, anneal_temperature, low_energy, temperature_high, temperature_low, energy_electron, temperature_anneal, energy_low, temperature_room","name":"Topic 3", "docs":[{"name":"Doc5"},{"name":"Doc7"},{"name":"Doc15"},{"name":"Doc17"}]},"topic4":{"words":"chemical_potential, step_edge, energy_barrier, formation_energy, transition_metal, dft_calculation, free_energy, bind_energy, metal_surface, low_energy, energy_electron, electron_energy, nucleation_site, electronic_structure, calculate_use_dft, surface_metal, potential_chemical, structural_electronic, energy_low, energy_free, edge_step, barrier_energy","name":"Topic 4", "docs":[{"name":"Doc1"},{"name":"Doc2"},{"name":"Doc4"},{"name":"Doc5"},{"name":"Doc6"},{"name":"Doc7"},{"name":"Doc9"},{"name":"Doc10"},{"name":"Doc11"},{"name":"Doc14"},{"name":"Doc15"},{"name":"Doc17"}]},"topic5":{"words":"single_layer, di_erent, single_crystal, thermal_conductivity, number_layer, carrier_mobility, single_crystalline, graphene_layer, layer_thickness, thick_layer, layer_graphene, layer_number, conductivity_thermal, layer_single, mobility_carrier","name":"Topic 5", "docs":[{"name":"Doc3"},{"name":"Doc7"},{"name":"Doc10"},{"name":"Doc17"},{"name":"Doc18"}]},"topic6":{"words":"band_gap, band_structure, valence_band, electronic_structure, con_guration, transition_metal, con_rme, unit_cell, metal_surface, chemical_potential, guration_con, low_energy, gap_appropriate_band, metal_transition, electron_energy","name":"Topic 6", "docs":[{"name":"Doc1"},{"name":"Doc2"},{"name":"Doc3"},{"name":"Doc4"},{"name":"Doc7"},{"name":"Doc9"},{"name":"Doc11"},{"name":"Doc17"},{"name":"Doc18"}]},"topic7":{"words":"line_feature, image_show, optical_image, structural_defect, legend_reader, defect_density, sem_image, grain_boundary, show_image, defective_structure, density_defect","name":"Topic 7", "docs":[{"name":"Doc1"},{"name":"Doc3"},{"name":"Doc7"},{"name":"Doc9"},{"name":"Doc12"},{"name":"Doc13"},{"name":"Doc17"}]},"topic8":{"words":"carbon_atom, carbon_specie, carbon_cluster, carbon_solubility, carbon_source, atom_cluster, atomic_position, core_level, atom_carbon, cluster_atom, position_atom, solubility_carbon","name":"Topic 8", "docs":[{"name":"Doc1"},{"name":"Doc2"},{"name":"Doc3"},{"name":"Doc4"},{"name":"Doc6"},{"name":"Doc7"},{"name":"Doc9"},{"name":"Doc13"},{"name":"Doc17"},{"name":"Doc19"}]},"topic9":{"words":"copper_foil, copper_oxide, grain_boundary, grain_size, oxidation_copper, sample_anneal, con_rme, polycrystalline_copper, con_guration, anneal_sample, copper_polycrystalline, foil_copper, metal_surface, stress_oxide, anneal_temperature, size_grain, boundary_grain","name":"Topic 9", "docs":[{"name":"Doc6"},{"name":"Doc7"},{"name":"Doc8"},{"name":"Doc9"},{"name":"Doc11"},{"name":"Doc12"},{"name":"Doc13"},{"name":"Doc14"},{"name":"Doc17"},{"name":"Doc19"}]},"topic10":{"words":"graphene_growth, buffer_layer, fast_growth, graphene_domain, graphene_layer, growth_graphene, growth_rate, grow_graphene, growth_mechanism, moire_pattern, growth_condition, epitaxial_growth, island_grow, adatom_concentration, rotational_domain, unit_cell, growth_direction, graphene_grow, layer_graphene, grow_island, rate_growth, direction_growth, domain_rotate, mechanism_growth, growth_epitaxial, concentration_adatom, number_layer, single_crystal","name":"Topic 10", "docs":[{"name":"Doc8"},{"name":"Doc9"},{"name":"Doc13"}]}}, "docs":{"Doc1":{"name":"03-copper CZ process","link":"./doc_html/03-copper CZ process_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 1"},{"name":"Topic 2"},{"name":"Topic 4"},{"name":"Topic 6"},{"name":"Topic 7"},{"name":"Topic 8"}]},"Doc2":{"name":"02-Complete Corrosion Inhibition through Graphene Defect","link":"./doc_html/02-Complete Corrosion Inhibition through Graphene Defect_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 1"},{"name":"Topic 2"},{"name":"Topic 4"},{"name":"Topic 6"},{"name":"Topic 8"}]},"Doc3":{"name":"19-Observing Graphene Grow Catalyst Graphene Interactions during","link":"./doc_html/19-Observing Graphene Grow Catalyst Graphene Interactions during_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 1"},{"name":"Topic 5"},{"name":"Topic 6"},{"name":"Topic 7"},{"name":"Topic 8"}]},"Doc4":{"name":"09-Thermal Growth of Graphene- A Review","link":"./doc_html/09-Thermal Growth of Graphene- A Review_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 4"},{"name":"Topic 6"},{"name":"Topic 8"}]},"Doc5":{"name":"13-Graphene, hexagonal boron nitride, and their","link":"./doc_html/13-Graphene, hexagonal boron nitride, and their_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 3"},{"name":"Topic 4"}]},"Doc6":{"name":"01-2D materials - ACS Nano","link":"./doc_html/01-2D materials - ACS Nano_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 9"},{"name":"Topic 4"},{"name":"Topic 8"}]},"Doc7":{"name":"04-Cu nanowires-nanoletters","link":"./doc_html/04-Cu nanowires-nanoletters_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 1"},{"name":"Topic 2"},{"name":"Topic 3"},{"name":"Topic 4"},{"name":"Topic 5"},{"name":"Topic 7"},{"name":"Topic 8"},{"name":"Topic 9"},{"name":"Topic 6"}]},"Doc8":{"name":"14-Growth of epitaxial graphene- Theory and experiment","link":"./doc_html/14-Growth of epitaxial graphene- Theory and experiment_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 1"},{"name":"Topic 9"},{"name":"Topic 10"}]},"Doc9":{"name":"07-CVD growth (Nature Materials)","link":"./doc_html/07-CVD growth (Nature Materials)_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 1"},{"name":"Topic 2"},{"name":"Topic 4"},{"name":"Topic 6"},{"name":"Topic 7"},{"name":"Topic 8"},{"name":"Topic 9"},{"name":"Topic 10"}]},"Doc10":{"name":"08-Oxdn bhvr Gr-cu dfcts Nat.Comm","link":"./doc_html/08-Oxdn bhvr Gr-cu dfcts Nat.Comm_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 4"},{"name":"Topic 5"}]},"Doc11":{"name":"10-Substrate grain size and orientation of Cu and Cu–Ni foils used for the","link":"./doc_html/10-Substrate grain size and orientation of Cu and Cu–Ni foils used for the_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 2"},{"name":"Topic 4"},{"name":"Topic 6"},{"name":"Topic 9"}]},"Doc12":{"name":"12-Epitaxial Graphene on Cu(111)","link":"./doc_html/12-Epitaxial Graphene on Cu(111)_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 1"},{"name":"Topic 2"},{"name":"Topic 7"},{"name":"Topic 9"}]},"Doc13":{"name":"17-Interface Formation in Monolayer Graphene-Boron Nitride","link":"./doc_html/17-Interface Formation in Monolayer Graphene-Boron Nitride_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 1"},{"name":"Topic 2"},{"name":"Topic 7"},{"name":"Topic 8"},{"name":"Topic 9"},{"name":"Topic 10"}]},"Doc14":{"name":"20-oles of Oxygen and Hydrogen in Crystal Orientation","link":"./doc_html/20-oles of Oxygen and Hydrogen in Crystal Orientation_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 4"},{"name":"Topic 9"}]},"Doc15":{"name":"18-O2 encpsln-Cu-Gr-acs.chemmater.7b005","link":"./doc_html/18-O2 encpsln-Cu-Gr-acs.chemmater.7b005_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 3"},{"name":"Topic 4"}]},"Doc17":{"name":"16-Influence of lattice orientation on growth and structure of graphene on Cu(001)","link":"./doc_html/16-Influence of lattice orientation on growth and structure of graphene on Cu(001)_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 1"},{"name":"Topic 2"},{"name":"Topic 3"},{"name":"Topic 4"},{"name":"Topic 5"},{"name":"Topic 6"},{"name":"Topic 7"},{"name":"Topic 8"},{"name":"Topic 9"}]},"Doc18":{"name":"11-Electronic structure of graphene-hexagonal boron","link":"./doc_html/11-Electronic structure of graphene-hexagonal boron_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 5"},{"name":"Topic 6"}]},"Doc19":{"name":"05-Cu Oxdns ncln sites acs.chemmater.6b","link":"./doc_html/05-Cu Oxdns ncln sites acs.chemmater.6b_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 2"},{"name":"Topic 8"},{"name":"Topic 9"}]},"Doc20":{"name":"06-Cu Stress-response-Staph-AEM-2010-Baker","link":"./doc_html/06-Cu Stress-response-Staph-AEM-2010-Baker_lemm_pre_TOPMINEPHRASELDA.html","topics":[{"name":"Topic 2"}]}}} ;
+
+            for (x in data.topics){
+                var sel1 = document.querySelector('#sel1');
+                var option = document.createElement("option");
+                option.value = x;
+                var words = data.topics[x].words;
+                option.text = data.topics[x].name + ' { ' + words.split(', ').splice(0,3) + ' }';
+                sel1.add(option)
+            }
+
+            function seeSelectedDoc(){
+                var selectDoc = document.querySelector('#sel2').value;
+                if (selectDoc === '')
+                    alert("Please select one of the document from the doucment section to see it")
+                else {
+                    var doc_url = data.docs[selectDoc].link;
+                    location.assign(doc_url);
+                }
+            }
+            
+            function giveSelectionTopic(selValue, text) {
+                var sel2 = document.querySelector('#sel2');
+                var doc_name = document.getElementById('doc_name');
+                sel2.innerHTML = '';
+                doc_name.innerHTML = '';
+                var topic_header = document.getElementById('topic');
+                var topic_words = document.getElementById('topicwords');
+                if (text != undefined){
+                    topic_header.innerHTML = text;
+                    topic_words.innerHTML = data.topics[selValue].words;
+                }
+                var docs = data.topics[selValue].docs;
+                for (x in docs){
+                    var option = document.createElement("option");
+                    option.value = docs[x].name;
+                    option.text = docs[x].name + ' - ' +  data.docs[docs[x].name].name;
+                    sel2.add(option)
+                }
+            }
+
+            function giveSelectionDoc(selValue) {
+                var sel3 = document.querySelector('#sel3');
+                sel3.innerHTML = '';
+                var doc_name = document.getElementById('doc_name');
+                if(selValue != undefined){
+                    doc_name.innerHTML = "Document Name: " + data.docs[selValue].name;
+                }
+                var topics = data.docs[selValue].topics;
+                for (x in topics){
+                    var option = document.createElement("option");
+                    option.value = topics[x].name;
+                    var words = data.topics[topics[x].name.toLowerCase().replace(' ','')].words;
+                    option.text = data.topics[topics[x].name.toLowerCase().replace(' ','')].name + ' { ' + words.split(', ').splice(0,3) + ' }';
+                    option.disabled = "disabled";
+                    sel3.add(option)
+                }
+            }
+        </script>
+    </body>
+</html>
+

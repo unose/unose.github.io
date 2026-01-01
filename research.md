@@ -102,7 +102,8 @@ This paper presents DEEPKNOWLEDGE, an <span class="highlight">automated code sum
   PIs: Myoungkyu Song (UNO), Harvey Siy (UNO), Youngjin Kwon (UNMC), Kwangsung Oh (UNO), and Na Zhong (UNO)
   </div>
   <div class="pub-summary">
-  Nebraska Research Initiative (NRI), University of Nebraska System. Project Period: 2023-2025. This Nebraska Research Initiative-funded project investigates <span class="highlight">learning-based approaches</span> for <span class="highlight">modeling correct API usage</span> and <span class="highlight">detecting API misuse errors</span>. By combining <span class="highlight">program analysis</span> with <span class="highlight">machine learning</span> and <span class="highlight">large language models</span>, the project supports research on <span class="highlight">code completion</span>, <span class="highlight">code summarization</span>, and developer-facing program understanding tools, contributing to multiple recent peer-reviewed publications.
+  Nebraska Research Initiative (NRI), University of Nebraska System. Project Period: 2023-2025.<br>
+  This Nebraska Research Initiative-funded project investigates <span class="highlight">learning-based approaches</span> for <span class="highlight">modeling correct API usage</span> and <span class="highlight">detecting API misuse errors</span>. By combining <span class="highlight">program analysis</span> with <span class="highlight">machine learning</span> and <span class="highlight">large language models</span>, the project supports research on <span class="highlight">code completion</span>, <span class="highlight">code summarization</span>, and developer-facing program understanding tools, contributing to multiple recent peer-reviewed publications.
   </div>
 </div>
 

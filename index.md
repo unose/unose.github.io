@@ -41,8 +41,6 @@
   }
 </style>
 
-<a href="./" class="back-link">← Back to Home</a>
-
 <h1>Myoungkyu Song, Ph.D.</h1>
 
 <p>

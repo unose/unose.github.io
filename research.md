@@ -16,11 +16,6 @@ permalink: /research/
   </p>
 </section>
 
-## Research Overview
-
-My research focuses on **software engineering** and **program analysis**, with the goal of improving the **reliability**, **maintainability**, and **developer productivity** of real-world software systems.  
-I am particularly interested in combining **automated analysis** with **learning-based techniques**, including **large language models (LLMs)**, to support developers across the software lifecycle.
-
 ---
 
 <h3>Research Areas</h3>

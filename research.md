@@ -67,6 +67,23 @@ This paper presents DEEPKNOWLEDGE, an automated code summarization approach that
 </div>
 </div>
 
+<div class="pub-summary">
+  This work introduces <span class="highlight">CODECOM</span>, a deep learning-based
+  <span class="highlight">code completion</span> technique that integrates a
+  <span class="highlight">large language model</span> with
+  <span class="highlight">program analysis</span> to provide more accurate and
+  <span class="highlight">context-aware</span> code suggestions.
+  By leveraging <span class="highlight">source code tokens</span>,
+  <span class="highlight">abstract syntax trees</span>, and
+  <span class="highlight">program dependencies</span>,
+  <span class="highlight">CODECOM</span> significantly outperforms existing approaches
+  and helps developers write correct code more efficiently.
+</div>
+
+<div class="pub-summary">
+This work introduces CODECOM, a <span class="highlight">deep learning-based code completion</span> technique that integrates a <span class="highlight">large language model</span> with <span class="highlight">program analysis</span> to provide more accurate and <span class="highlight">context-aware code suggestions</span>. By leveraging <span class="highlight">source code tokens</span>, <span class="highlight">abstract syntax trees</span>, and <span class="highlight">program dependencies</span>, CODECOM significantly outperforms existing approaches and helps developers write correct code more efficiently.
+</div>
+
 <div class="pub-item">
 <div class="pub-title">
 SYNC: Synergistic Annotation Collaboration between Humans and LLMs for Enhanced Model Training (SERA 2025)

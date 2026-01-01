@@ -9,41 +9,6 @@
     padding: 20px;
   }
 
-  /* --- NEW: Header Colors for Harmony --- */
-  
-  /* H1: Your Name - Matches the Photo Border & Bio Highlights */
-  h1 {
-    color: #a6abbd; /* Indigo */
-    margin-bottom: 5px;
-  }
-
-  /* H2: Section Titles - Deep Teal for distinct but harmonious contrast */
-  h2 {
-    color: #a6abbd; /* Deep Teal */
-    margin-top: 30px;
-    border-bottom: 1px solid #eaeaea; /* Optional: Adds a subtle line under titles */
-    padding-bottom: 10px;
-  }
-
-  /* -------------------------------------- */
-  .bio-highlight {
-    color: #553C9A;
-    font-weight: 600;
-  }
-
-  /* Back 버튼 스타일 */
-  .back-link {
-    display: inline-block;
-    margin-bottom: 30px;
-    color: #553C9A;
-    text-decoration: none;
-    font-weight: normal;
-    font-size: 1rem;
-  }
-  .back-link:hover {
-    text-decoration: underline;
-  }
-
   /* 프로필 사진 스타일 (왼쪽 배치로 수정됨) */
   .profile-photo {
     width: 180px;

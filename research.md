@@ -6,7 +6,7 @@ permalink: /research/
 
 <a href="https://unose.github.io" class="back-link">back</a>
 
-# Research
+<h1> Research </h1>
 
 <section id="research-overview">
   <h2>Research Overview</h2>

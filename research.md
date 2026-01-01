@@ -41,7 +41,7 @@ I am particularly interested in combining **automated analysis** with **learning
 
 ---
 
-## Selected Recent Publications
+## Selected Recent Publications and Projects
 
 <div class="pub-item">
 <div class="pub-title">
@@ -107,6 +107,7 @@ This paper presents DEEPKNOWLEDGE, an <span class="highlight">automated code sum
   </div>
 </div>
 
+<!-- 
 ---
 
 ## Research Grants and Projects
@@ -117,10 +118,15 @@ This paper presents DEEPKNOWLEDGE, an <span class="highlight">automated code sum
 **Project Period:** 2023–2025  
 **PIs:** Myoungkyu Song (UNO), Harvey Siy (UNO), Yeongjin Gwon (UNMC), Kwangsung Oh (UNO), Xin Zhong (UNO)
 
-This project investigates learning-based approaches for modeling correct API usage and detecting API misuse errors by combining program analysis with machine learning. The outcomes support research on code completion, code summarization, and developer-facing program understanding tools, contributing to multiple peer-reviewed publications.
+This project investigates learning-based approaches for modeling correct API usage and detecting API misuse errors by combining program analysis with machine learning. The outcomes support research on code completion, code summarization, and developer-facing program understanding tools, contributing to multiple peer-reviewed publications. -->
 
 ---
 
 ## Collaboration
 
-I actively collaborate with faculty and students across software engineering, machine learning, and programming languages, and welcome opportunities for interdisciplinary research.
+I actively collaborate with faculty and students across software engineering,
+AI/ML, programming languages, automated program analysis, and large language models.
+I am also committed to extending these efforts beyond academia and actively seek
+partnerships with industry leaders and national laboratories to translate research
+innovations into practical solutions and validate research outcomes in real-world
+software ecosystems.

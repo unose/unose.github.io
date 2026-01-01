@@ -3,6 +3,7 @@ layout: default
 title: Research
 permalink: /research/
 ---
+
 <a href="https://unose.github.io" class="back-link">back</a>
 
 # Research
@@ -17,7 +18,7 @@ permalink: /research/
   </p>
 </section>
 
----
+<hr style="clear: both; margin-top: 30px; margin-bottom: 30px; border: 0; border-top: 1px solid #eee;">
 
 <h2>Research Areas</h2>
 
@@ -49,7 +50,7 @@ permalink: /research/
   <li>Reinforcing <span class="research-area-highlight">fundamental software engineering principles</span></li>
 </ul>
 
----
+<hr style="clear: both; margin-top: 30px; margin-bottom: 30px; border: 0; border-top: 1px solid #eee;">
 
 ## Selected Recent Publications and Projects
 

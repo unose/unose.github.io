@@ -1,77 +1,102 @@
 <style>
-  /* Indigo Color Theme */
+  /* 기본 폰트 및 스타일 (기존 유지) */
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* 보라색/Indigo 컬러 테마 */
   .bio-highlight {
     color: #553C9A;
     font-weight: 600;
   }
-  
-  /* Back Button Style */
+
+  /* Back 버튼 스타일 */
   .back-link {
     display: inline-block;
-    margin-bottom: 20px;
-    color: #553C9A; /* Indigo */
+    margin-bottom: 30px;
+    color: #553C9A;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1em;
+    font-weight: normal;
+    font-size: 1rem;
   }
   .back-link:hover {
     text-decoration: underline;
   }
 
-  /* Profile Photo Style */
+  /* 프로필 사진 스타일 (왼쪽 배치로 수정됨) */
   .profile-photo {
-    width: 200px;        /* Adjust size as needed */
-    height: 200px;
-    object-fit: cover;   /* Ensures photo doesn't stretch */
-    border-radius: 50%;  /* Makes it circular */
-    border: 3px solid #553C9A; /* Indigo border */
-    float: right;        /* Puts image on the right */
-    margin-left: 25px;   /* Space between text and image */
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #553C9A;
+    
+    /* [변경] 오른쪽 정렬 -> 왼쪽 정렬 */
+    float: left;        
+    
+    /* [변경] 텍스트와의 간격 방향 수정 (왼쪽 여백 -> 오른쪽 여백) */
+    margin-right: 30px; 
+    margin-left: 0;     
+    
     margin-bottom: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   }
 
-  /* Mobile Responsive: Center image on small screens */
+  /* 모바일 화면 대응: 사진을 중앙으로 */
   @media (max-width: 600px) {
     .profile-photo {
       float: none;
       display: block;
-      margin: 0 auto 20px auto;
+      margin: 0 auto 20px auto; /* 중앙 정렬 */
+    }
+    h1 {
+      text-align: center;
+    }
+    p {
+      text-align: left;
+    }
+    .header-info {
+        text-align: center;
     }
   }
 </style>
 
-<h1>Myoungkyu Song, Ph.D.</h1>
-
-<p>
-  Associate Professor, Department of Computer Science<br>
-  University of Nebraska at Omaha
-</p>
-
-<p>Email: myoungkyu@unomaha.edu</p>
-
-<p>
-  <a href="research">Research</a> · 
-  <a href="publications">Publications</a> · 
-  <a href="grants">Grants</a> · 
-  <a href="teaching">Teaching</a>
-</p>
-
-<hr>
-
-<h2>About</h2>
+<a href="https://www.unomaha.edu/college-of-information-science-and-technology/about/faculty-staff/myoungkyu-song.php" class="back-link">University of Nebraska at Omaha</a>
 
 <img src="assets/profile.png" alt="Myoungkyu Song" class="profile-photo">
 
+<div class="header-info">
+  <h1>Myoungkyu Song, Ph.D.</h1>
+
+  <p>
+    Associate Professor, Department of Computer Science<br>
+    University of Nebraska at Omaha
+  </p>
+
+  <p>Email: myoungkyu@unomaha.edu</p>
+
+  <p>
+    <a href="research">Research</a> · 
+    <a href="publications">Publications</a> · 
+    <a href="grants">Grants</a> · 
+    <a href="teaching">Teaching</a>
+  </p>
+</div>
+
+<hr style="clear: both; margin-top: 30px; margin-bottom: 30px;">
+
+<h2>About</h2>
 <p>
   I am an <span class="bio-highlight">Associate Professor</span> in the Department of Computer Science at the <span class="bio-highlight">University of Nebraska at Omaha</span>. Prior to joining UNO, I was a postdoctoral researcher at the Center for Advanced Research in Software Engineering (ARiSE) in the Department of Electrical and Computer Engineering at <span class="bio-highlight">The University of Texas at Austin</span>. I received my Ph.D. in Computer Science from <span class="bio-highlight">Virginia Tech</span>. Before entering academia, I held software engineering and research staff positions in industry, including roles at <span class="bio-highlight">Samsung Electronics</span> and <span class="bio-highlight">LG Electronics</span>.
 </p>
-
 <p>
   My research focuses on <span class="bio-highlight">software engineering</span> and <span class="bio-highlight">program analysis</span>, with an emphasis on AI- and large language model (LLM)-assisted software development, software correctness and security, and automated program understanding and transformation. My recent work explores how <span class="bio-highlight">learning-based techniques</span> can be combined with program analysis to support software reliability, robustness, and developer productivity, particularly in educational and security-sensitive contexts.
 </p>
-
-<div style="clear: both;"></div>
 
 <h2>Research Highlights</h2>
 <ul>

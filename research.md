@@ -19,7 +19,7 @@ permalink: /research/
 
 ---
 
-<h3>Research Areas</h3>
+<h2>Research Areas</h2>
 
 <h4>Program Analysis and Software Evolution</h4>
 <ul>

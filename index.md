@@ -9,9 +9,9 @@
 
 <p>
   <a href="research">Research</a> · 
-  <a href="publications.md">Publications</a> · 
-  <a href="grants.md">Grants</a> · 
-  <a href="teaching.md">Teaching</a>
+  <a href="publications">Publications</a> · 
+  <a href="grants">Grants</a> · 
+  <a href="teaching">Teaching</a>
 </p>
 
 <hr>

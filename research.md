@@ -12,6 +12,36 @@ My research focuses on **software engineering** and **program analysis**, with t
 I am particularly interested in combining **automated analysis** with **learning-based techniques**, including **large language models (LLMs)**, to support developers across the software lifecycle.
 
 ---
+<h3>Research Areas</h3>
+
+<h4>Program Analysis and Software Evolution</h4>
+<ul>
+  <li>Analysis of <span class="research-area-highlight">software changes</span>, <span class="research-area-highlight">refactorings</span>, and <span class="research-area-highlight">recurring modification patterns</span></li>
+  <li>Techniques to support <span class="research-area-highlight">code review</span>, <span class="research-area-highlight">regression testing</span>, and <span class="research-area-highlight">program comprehension</span></li>
+  <li>Improving the <span class="research-area-highlight">transparency</span> and <span class="research-area-highlight">interpretability</span> of software evolution</li>
+</ul>
+
+<h4>Software Correctness</h4>
+<ul>
+  <li>Automated detection and explanation of <span class="research-area-highlight">software defects</span></li>
+  <li>Integration of <span class="research-area-highlight">static analysis</span>, <span class="research-area-highlight">statistical methods</span>, and <span class="research-area-highlight">machine learning</span></li>
+  <li>Developer-facing tools that provide <span class="research-area-highlight">actionable feedback</span></li>
+</ul>
+
+<h4>AI & LLM-assisted Software Engineering</h4>
+<ul>
+  <li>Combining <span class="research-area-highlight">large language models (LLMs)</span> with <span class="research-area-highlight">traditional program analysis</span></li>
+  <li>Applications to <span class="research-area-highlight">code completion</span>, <span class="research-area-highlight">code summarization</span>, and <span class="research-area-highlight">human–AI collaboration</span></li>
+  <li>Emphasis on <span class="research-area-highlight">reliability</span> and <span class="research-area-highlight">trustworthiness</span> in developer tools</li>
+</ul>
+
+<h4>AI-assisted Programming Education</h4>
+<ul>
+  <li>Intelligent tutoring systems for programming education</li>
+  <li>Automated feedback to support <span class="research-area-highlight">effective software development practices</span></li>
+  <li>Reinforcing <span class="research-area-highlight">fundamental software engineering principles</span></li>
+</ul>
+
 
 ## Research Areas
 

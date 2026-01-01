@@ -54,19 +54,6 @@ Shradha Maharjan, Meng Xia, Tae-Hyuk Ahn, Myoungkyu Song
 This work introduces CODECOM, a deep learning-based code completion technique that integrates a large language model with program analysis to provide more accurate and context-aware code suggestions. By leveraging source code tokens, abstract syntax trees, and program dependencies, CODECOM significantly outperforms existing approaches and helps developers write correct code more efficiently.
 </div>
 <div class="pub-summary">
-  This work introduces <span class="highlight">CODECOM</span>, a deep learning-based
-  <span class="highlight">code completion</span> technique that integrates a
-  <span class="highlight">large language model</span> with
-  <span class="highlight">program analysis</span> to provide more accurate and
-  <span class="highlight">context-aware</span> code suggestions.
-  By leveraging <span class="highlight">source code tokens</span>,
-  <span class="highlight">abstract syntax trees</span>, and
-  <span class="highlight">program dependencies</span>,
-  <span class="highlight">CODECOM</span> significantly outperforms existing approaches
-  and helps developers write correct code more efficiently.
-</div>
-
-<div class="pub-summary">
 This work introduces CODECOM, a <span class="highlight">deep learning-based code completion</span> technique that integrates a <span class="highlight">large language model</span> with <span class="highlight">program analysis</span> to provide more accurate and <span class="highlight">context-aware code suggestions</span>. By leveraging <span class="highlight">source code tokens</span>, <span class="highlight">abstract syntax trees</span>, and <span class="highlight">program dependencies</span>, CODECOM significantly outperforms existing approaches and helps developers write correct code more efficiently.
 </div>
 </div>
@@ -79,9 +66,12 @@ Automated Code Summarization by Training Large Language Models with Crowdsourced
 Meng Xia, Shradha Maharjan, and Myoungkyu Song
 </div>
 <div class="pub-summary">
-This paper presents DEEPKNOWLEDGE, an automated code summarization approach that leverages a large language model trained with crowdsourced knowledge from GitHub and Stack Overflow. By integrating real-world coding examples and developer discussions, the approach generates more accurate and context-aware summaries that explain code behavior, implementation rationale, and usage guidelines. Extensive evaluation on large-scale Java datasets shows that DEEPKNOWLEDGE significantly outperforms state-of-the-art techniques, improving BLEU scores by up to 39%, and demonstrating its effectiveness in supporting program comprehension and maintaining up-to-date documentation in evolving software systems.
+This paper presents DEEPKNOWLEDGE, an <span class="highlight">automated code summarization</span> approach that leverages a <span class="highlight">large language model</span> trained with <span class="highlight">crowdsourced knowledge</span> from GitHub and Stack Overflow. By integrating real-world coding examples and developer discussions, the approach generates more accurate and <span class="highlight">context-aware summaries</span> that explain code behavior, implementation rationale, and usage guidelines. Extensive evaluation on <span class="highlight">large-scale Java datasets</span> shows that DEEPKNOWLEDGE significantly outperforms state-of-the-art techniques, improving <span class="highlight">BLEU scores</span> by up to 39%, and demonstrating its effectiveness in supporting <span class="highlight">program comprehension</span> and maintaining up-to-date documentation in evolving software systems.
 </div>
 </div>
+
+
+
 
 <div class="pub-item">
 <div class="pub-title">

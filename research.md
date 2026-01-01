@@ -44,56 +44,6 @@ I am particularly interested in combining **automated analysis** with **learning
 ## Selected Recent Publications
 
 <div class="pub-item">
-  <div class="pub-title">
-    Intelligent Code Completion by a Unified Multi-task Learning with a Large Language Model (SERA 2025)
-  </div>
-  <div class="pub-authors">
-    Shradha Maharjan, Meng Xia, Tae-Hyuk Ahn, Myoungkyu Song
-  </div>
-  <div class="pub-summary">
-    Introduces a unified multi-task learning framework for code completion that integrates large language models with program analysis to improve accuracy and context awareness.
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-title">
-    Automated Code Summarization by Training Large Language Models with Crowdsourced Knowledge (SERA 2025)
-  </div>
-  <div class="pub-authors">
-    Meng Xia, Shradha Maharjan, Myoungkyu Song
-  </div>
-  <div class="pub-summary">
-    Presents an automated code summarization approach that leverages crowdsourced knowledge from developer platforms to generate more informative summaries.
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-title">
-    SYNC: Synergistic Annotation Collaboration between Humans and LLMs for Enhanced Model Training (SERA 2025)
-  </div>
-  <div class="pub-authors">
-    Tammy Le, Will Taylor, Shradha Maharjan, Meng Xia, Myoungkyu Song
-  </div>
-  <div class="pub-summary">
-    Proposes a human–LLM collaborative annotation framework that improves data quality and scalability for model training.
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-title">
-    SYNCode: Synergistic Human–LLM Collaboration for Enhanced Data Annotation (Information 2025)
-  </div>
-  <div class="pub-authors">
-    Meng Xia, Shradha Maharjan, Tammy Le, Will Taylor, Myoungkyu Song
-  </div>
-  <div class="pub-summary">
-    An extended framework for collaborative annotation in code-centric domains, demonstrating improved annotation accuracy and reduced bias.
-  </div>
-</div>
-
-Here is the extracted information formatted as requested:
-
-<div class="pub-item">
 <div class="pub-title">
 Intelligent Code Completion by a Unified Multi-task Learning with a Large Language Model (SERA 2025)
 </div>

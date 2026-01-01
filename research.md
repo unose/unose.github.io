@@ -6,6 +6,16 @@ permalink: /research/
 
 # Research
 
+<section id="research-overview">
+  <h2>Research Overview</h2>
+  <p>
+    My research focuses on <span class="overview-highlight">software engineering</span> and <span class="overview-highlight">program analysis</span>, with the goal of improving the <span class="overview-highlight">reliability</span>, <span class="overview-highlight">maintainability</span>, and <span class="overview-highlight">developer productivity</span> of real-world software systems.
+  </p>
+  <p>
+    I am particularly interested in combining <span class="overview-highlight">automated analysis</span> with <span class="overview-highlight">learning-based techniques</span>, including <span class="overview-highlight">large language models (LLMs)</span>, to support developers across the software lifecycle.
+  </p>
+</section>
+
 ## Research Overview
 
 My research focuses on **software engineering** and **program analysis**, with the goal of improving the **reliability**, **maintainability**, and **developer productivity** of real-world software systems.  
@@ -110,18 +120,6 @@ This paper presents DEEPKNOWLEDGE, an <span class="highlight">automated code sum
   This Nebraska Research Initiative-funded project investigates <span class="highlight">learning-based approaches</span> for <span class="highlight">modeling correct API usage</span> and <span class="highlight">detecting API misuse errors</span>. By combining <span class="highlight">program analysis</span> with <span class="highlight">machine learning</span> and <span class="highlight">large language models</span>, the project supports research on <span class="highlight">code completion</span>, <span class="highlight">code summarization</span>, and developer-facing program understanding tools, contributing to multiple recent peer-reviewed publications.
   </div>
 </div>
-
-## <!--
-
-## Research Grants and Projects
-
-### A Machine-Learning Approach to API Usage Learning for Detecting API Misuse Errors
-
-**Funding Agency:** Nebraska Research Initiative (NRI), University of Nebraska System  
-**Project Period:** 2023–2025  
-**PIs:** Myoungkyu Song (UNO), Harvey Siy (UNO), Yeongjin Gwon (UNMC), Kwangsung Oh (UNO), Xin Zhong (UNO)
-
-This project investigates learning-based approaches for modeling correct API usage and detecting API misuse errors by combining program analysis with machine learning. The outcomes support research on code completion, code summarization, and developer-facing program understanding tools, contributing to multiple peer-reviewed publications. -->
 
 ---
 

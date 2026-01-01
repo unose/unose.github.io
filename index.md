@@ -9,7 +9,23 @@
     padding: 20px;
   }
 
-  /* 보라색/Indigo 컬러 테마 */
+  /* --- NEW: Header Colors for Harmony --- */
+  
+  /* H1: Your Name - Matches the Photo Border & Bio Highlights */
+  h1 {
+    color: #a6abbd; /* Indigo */
+    margin-bottom: 5px;
+  }
+
+  /* H2: Section Titles - Deep Teal for distinct but harmonious contrast */
+  h2 {
+    color: #a6abbd; /* Deep Teal */
+    margin-top: 30px;
+    border-bottom: 1px solid #eaeaea; /* Optional: Adds a subtle line under titles */
+    padding-bottom: 10px;
+  }
+
+  /* -------------------------------------- */
   .bio-highlight {
     color: #553C9A;
     font-weight: 600;
@@ -88,7 +104,7 @@
   </p>
 </div>
 
-<hr style="clear: both; margin-top: 30px; margin-bottom: 30px;">
+<hr style="clear: both; margin-top: 30px; margin-bottom: 30px; border: 0; border-top: 1px solid #eee;">
 
 <h2>About</h2>
 <p>

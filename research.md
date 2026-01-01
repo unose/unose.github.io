@@ -3,7 +3,7 @@ layout: default
 title: Research
 permalink: /research/
 ---
-<a href="./" class="back-link">back</a>
+<a href="https://unose.github.io" class="back-link">back</a>
 
 # Research
 

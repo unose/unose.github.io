@@ -1,2 +1,4 @@
 title: ""
 description: ""
+theme: jekyll-theme-minimal
+markdown: kramdown

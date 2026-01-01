@@ -39,6 +39,19 @@ I am particularly interested in combining **automated analysis** with **learning
 
 ## Selected Recent Publications
 
+<div class="pub-item">
+  <div class="pub-title">
+    Intelligent Code Completion by a Unified Multi-task Learning with a Large Language Model (SERA 2025)
+  </div>
+  <div class="pub-authors">
+    Shradha Maharjan, Meng Xia, Tae-Hyuk Ahn, Myoungkyu Song
+  </div>
+  <div class="pub-summary">
+    Introduces a unified multi-task learning framework for code completion that integrates large language models with program analysis to improve accuracy and context awareness.
+  </div>
+</div>
+
+
 ### Intelligent Code Completion by a Unified Multi-task Learning with a Large Language Model (SERA 2025)
 **Shradha Maharjan, Meng Xia, Tae-Hyuk Ahn, Myoungkyu Song**  
 Introduces a unified multi-task learning framework for code completion that integrates LLMs with program analysis to improve accuracy and context awareness.

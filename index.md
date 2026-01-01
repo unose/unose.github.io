@@ -61,7 +61,7 @@
 
 <h2>About</h2>
 
-<img src="assets/profile.jpg" alt="Myoungkyu Song" class="profile-photo">
+<img src="assets/profile.png" alt="Myoungkyu Song" class="profile-photo">
 
 <p>
   I am an <span class="bio-highlight">Associate Professor</span> in the Department of Computer Science at the <span class="bio-highlight">University of Nebraska at Omaha</span>. Prior to joining UNO, I was a postdoctoral researcher at the Center for Advanced Research in Software Engineering (ARiSE) in the Department of Electrical and Computer Engineering at <span class="bio-highlight">The University of Texas at Austin</span>. I received my Ph.D. in Computer Science from <span class="bio-highlight">Virginia Tech</span>. Before entering academia, I held software engineering and research staff positions in industry, including roles at <span class="bio-highlight">Samsung Electronics</span> and <span class="bio-highlight">LG Electronics</span>.

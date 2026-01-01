@@ -8,7 +8,7 @@
 <p>Email: myoungkyu@unomaha.edu</p>
 
 <p>
-  <a href="research.md">Research</a> · 
+  <a href="research">Research</a> · 
   <a href="publications.md">Publications</a> · 
   <a href="grants.md">Grants</a> · 
   <a href="teaching.md">Teaching</a>

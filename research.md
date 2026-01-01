@@ -12,6 +12,7 @@ My research focuses on **software engineering** and **program analysis**, with t
 I am particularly interested in combining **automated analysis** with **learning-based techniques**, including **large language models (LLMs)**, to support developers across the software lifecycle.
 
 ---
+
 <h3>Research Areas</h3>
 
 <h4>Program Analysis and Software Evolution</h4>
@@ -41,33 +42,6 @@ I am particularly interested in combining **automated analysis** with **learning
   <li>Automated feedback to support <span class="research-area-highlight">effective software development practices</span></li>
   <li>Reinforcing <span class="research-area-highlight">fundamental software engineering principles</span></li>
 </ul>
-
-
-## Research Areas
-
-### Program Analysis and Software Evolution
-
--   Analysis of **software changes**, **refactorings**, and **recurring modification patterns**
--   Techniques to support **code review**, **regression testing**, and **program comprehension**
--   Improving the **transparency** and **interpretability** of software evolution
-
-### Software Correctness
-
--   Automated detection and explanation of **software defects**
--   Integration of **static analysis**, **statistical methods**, and **machine learning**
--   Developer-facing tools that provide **actionable feedback**
-
-### AI & LLM-assisted Software Engineering
-
--   Combining **large language models (LLMs)** with **traditional program analysis**
--   Applications to **code completion**, **code summarization**, and **human–AI collaboration**
--   Emphasis on **reliability** and **trustworthiness** in developer tools
-
-### AI-assisted Programming Education
-
--   Intelligent tutoring systems for programming education
--   Automated feedback to support **effective software development practices**
--   Reinforcing **fundamental software engineering principles**
 
 ---
 
@@ -137,8 +111,7 @@ This paper presents DEEPKNOWLEDGE, an <span class="highlight">automated code sum
   </div>
 </div>
 
-<!-- 
----
+## <!--
 
 ## Research Grants and Projects
 

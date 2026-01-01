@@ -70,43 +70,40 @@ This paper presents DEEPKNOWLEDGE, an <span class="highlight">automated code sum
 </div>
 </div>
 
-
-
-
 <div class="pub-item">
-<div class="pub-title">
-SYNC: Synergistic Annotation Collaboration between Humans and LLMs for Enhanced Model Training (SERA 2025)
-</div>
-<div class="pub-authors">
-Tommy Le, Will Taylor, Shradha Maharjan, Meng Xia, and Myoungkyu Song
-</div>
-<div class="pub-summary">
-This paper introduces SYNC, a human-LLM collaborative annotation framework designed to improve the accuracy and reliability of data annotation for Stack Overflow datasets. SYNC combines multiple automated annotation strategies—including TF-IDF-based lexical matching, transformer-based semantic similarity, and code-aware embeddings using UniXcoder—with human verification and refinement. By integrating automated efficiency with human oversight through web, mobile, and desktop interfaces, the approach produces higher-quality annotations that better support downstream tasks such as code retrieval, summarization, and analysis in large language model-based programming assistants.
-</div>
+  <div class="pub-title">
+  SYNC: Synergistic Annotation Collaboration between Humans and LLMs for Enhanced Model Training (SERA 2025)
+  </div>
+  <div class="pub-authors">
+  Tommy Le, Will Taylor, Shradha Maharjan, Meng Xia, and Myoungkyu Song
+  </div>
+  <div class="pub-summary">
+  This paper introduces SYNC, a <span class="highlight">human-LLM collaborative annotation framework</span> designed to improve the accuracy and reliability of <span class="highlight">data annotation</span> for Stack Overflow datasets. SYNC combines multiple <span class="highlight">automated annotation strategies</span>—including TF-IDF-based lexical matching, <span class="highlight">transformer-based semantic similarity</span>, and <span class="highlight">code-aware embeddings</span> using UniXcoder—with human verification and refinement. By integrating automated efficiency with human oversight through web, mobile, and desktop interfaces, the approach produces higher-quality annotations that better support downstream tasks such as <span class="highlight">code retrieval</span>, summarization, and analysis in <span class="highlight">large language model-based programming assistants</span>.
+  </div>
 </div>
 
 <div class="pub-item">
-<div class="pub-title">
-SYNCode: Synergistic Human-LLM Collaboration for Enhanced Data Annotation (Information 2025, extended version of SERA 2025)
-</div>
-<div class="pub-authors">
-Meng Xia, Shradha Maharjan, Tommy Le, Will Taylor, Myoungkyu Song
-</div>
-<div class="pub-summary">
-This paper presents SYNCode, a human-LLM collaborative framework for high-quality data annotation in code-centric domains such as Stack Overflow. The approach combines lexical and semantic analysis with code-aware representations to generate initial annotations, which are then iteratively validated and refined by human annotators through an interactive system. Experimental results show that SYNCode improves annotation accuracy and scalability while reducing bias, supporting downstream software engineering and language model-based analysis tasks.
-</div>
+  <div class="pub-title">
+  SYNCode: Synergistic Human-LLM Collaboration for Enhanced Data Annotation (Information 2025, extended version of SERA 2025)
+  </div>
+  <div class="pub-authors">
+  Meng Xia, Shradha Maharjan, Tommy Le, Will Taylor, Myoungkyu Song
+  </div>
+  <div class="pub-summary">
+  This paper presents SYNCode, a <span class="highlight">human-LLM collaborative framework</span> for high-quality data annotation in <span class="highlight">code-centric domains</span> such as Stack Overflow. The approach combines <span class="highlight">lexical and semantic analysis</span> with <span class="highlight">code-aware representations</span> to generate initial annotations, which are then iteratively validated and refined by human annotators through an <span class="highlight">interactive system</span>. Experimental results show that SYNCode improves annotation accuracy and scalability while reducing bias, supporting downstream software engineering and <span class="highlight">language model-based analysis tasks</span>.
+  </div>
 </div>
 
 <div class="pub-item">
-<div class="pub-title">
-A Machine-Learning Approach to API Usage Learning for Detecting API Misuse Errors
-</div>
-<div class="pub-authors">
-PIs: Myoungkyu Song (UNO), Harvey Siy (UNO), Youngjin Kwon (UNMC), Kwangsung Oh (UNO), and Na Zhong (UNO)
-</div>
-<div class="pub-summary">
-Nebraska Research Initiative (NRI), University of Nebraska System. Project Period: 2023-2025. This Nebraska Research Initiative-funded project investigates learning-based approaches for modeling correct API usage and detecting API misuse errors. By combining program analysis with machine learning and large language models, the project supports research on code completion, code summarization, and developer-facing program understanding tools, contributing to multiple recent peer-reviewed publications.
-</div>
+  <div class="pub-title">
+  A Machine-Learning Approach to API Usage Learning for Detecting API Misuse Errors
+  </div>
+  <div class="pub-authors">
+  PIs: Myoungkyu Song (UNO), Harvey Siy (UNO), Youngjin Kwon (UNMC), Kwangsung Oh (UNO), and Na Zhong (UNO)
+  </div>
+  <div class="pub-summary">
+  Nebraska Research Initiative (NRI), University of Nebraska System. Project Period: 2023-2025. This Nebraska Research Initiative-funded project investigates <span class="highlight">learning-based approaches</span> for <span class="highlight">modeling correct API usage</span> and <span class="highlight">detecting API misuse errors</span>. By combining <span class="highlight">program analysis</span> with <span class="highlight">machine learning</span> and <span class="highlight">large language models</span>, the project supports research on <span class="highlight">code completion</span>, <span class="highlight">code summarization</span>, and developer-facing program understanding tools, contributing to multiple recent peer-reviewed publications.
+  </div>
 </div>
 
 ---

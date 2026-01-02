@@ -1,3 +1,9 @@
+---
+layout: default
+title: Myoungkyu Song
+permalink: /
+---
+
 <style>
   /* 기본 폰트 및 스타일 (기존 유지) */
   body {
@@ -59,7 +65,7 @@
     University of Nebraska at Omaha
   </p>
 
-  <p>Email: myoungkyu@unomaha.edu</p>
+  <p>Email: myoungkyu [at] unomaha [dot] edu</p>
 
   <p>
     <a href="research">Research</a> · 
@@ -86,4 +92,36 @@
   <li><span class="bio-highlight">Software Correctness & Security</span></li>
   <li><span class="bio-highlight">AI & LLM-assisted Software Engineering</span></li>
   <li><span class="bio-highlight">AI-assisted Programming Education</span></li>
+</ul>
+
+<h2>News</h2>
+
+<ul class="news-list">
+  <li>
+    <strong>Nov 20, 2025</strong> – <strong>Shradha Maharjan</strong> (M.S. student, Computer Science) successfully defended her master’s thesis titled
+    <em>“Transformer-Based Deep Learning for Context-Aware Code Completion via Large Language Model Enhancement.”</em>
+    Advised by <strong>Dr. Myoungkyu Song</strong>, the thesis introduces <strong>DEEPCC</strong>, a transformer-based framework that integrates
+    <strong>program analysis</strong> and <strong>multi-task learning</strong> into a <strong>large language model</strong> for context-aware code completion,
+    demonstrating statistically significant improvements over state-of-the-art approaches.
+  </li>
+</ul>
+
+<ul class="news-list">
+  <li>
+    <strong>Oct 2025</strong> – I am serving as a <strong>General Chair</strong> of
+    <strong>MobiCASE 2026</strong> (EAI International Conference on Mobile Computing, Applications, and Services),
+    contributing to conference leadership, sponsorship planning, and coordination of the organizing committee
+    for the upcoming event in <strong>Oklahoma City, USA</strong>.
+  </li>
+</ul>
+
+<ul class="news-list">
+  <li>
+    <strong>May 2025</strong> – The paper
+    <em>“Automated Code Summarization by Training Large Language Models with Crowdsourced Knowledge”</em>,
+    co-authored with graduate students <strong>Meng Xia</strong> and <strong>Shradha Maharjan</strong>,
+    received the <strong>Best Student Paper Award</strong> at
+    <strong>SERA 2025</strong> (IEEE/ACIS), recognizing outstanding student-led research in
+    <strong>AI- and LLM-assisted software engineering</strong>.
+  </li>
 </ul>

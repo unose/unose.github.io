@@ -30,7 +30,7 @@ permalink: /grants/
 **Senior Personnel:**
 
 * **Dr. Myoungkyu Song**
-* **Dr. Peggy Huang**
+* **Dr. Pei-Chi Huang**
 
 **Total Award:** $6M
 **Period:** 08/2019 – 07/2023 *(Completed)*

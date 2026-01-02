@@ -7,15 +7,35 @@ permalink: /grants/
 <a href="https://unose.github.io" class="back-link">back</a>
 
 
-### NSF RII FEC Award #1920954
+## NSF RII FEC Award #1920954
 
 
-**Data Driven Material Discovery Center for Bioengineering Innovation**
-PI: Dr. Robb Winter
-Co-PIs: Dr. Parvathi Chundi, Dr. Matthew W. Fields, Dr. Bharat K. Jasthi, Dr. Carol Lushbough
-Senior Personnel: Dr. Myoungkyu Song, Dr. Peggy Huang
-Total Award: $6M
-Period: 08/2019 – 07/2023 (Completed)
+### **Data Driven Material Discovery Center for Bioengineering Innovation**
+
+**PI:**
+
+* **Dr. Robb M. Winter** (Principal Investigator), South Dakota School of Mines and Technology
+
+**Co-PIs:**
+
+* **Dr. Matthew W. Fields** (Co-Principal Investigator), Montana State University
+* **Dr. Mahadevan Subramaniam** (Co-Principal Investigator), University of Nebraska at Omaha
+* **Dr. Bharat K. Jasthi** (Co-Principal Investigator), South Dakota School of Mines and Technology
+* **Dr. Etienne Gnimpieba Zohim** (Co-Principal Investigator), University of South Dakota
+
+**Former Co-PIs:**
+* **Dr. Carol Lushbough** (Former Co-Principal Investigator), University of South Dakota
+* **Dr. Parvathi Chundi** (Former Co-Principal Investigator), University of Nebraska at Omaha
+
+**Senior Personnel:**
+
+* **Dr. Myoungkyu Song**
+* **Dr. Peggy Huang**
+
+**Total Award:** $6M
+**Period:** 08/2019 – 07/2023 *(Completed)*
+
+---
 
 
 #### Project Overview

@@ -4,7 +4,7 @@ title: Grant
 permalink: /grantdetails/
 ---
 
-<a href="https://unose.github.io" class="back-link">back</a>
+<a href="javascript:history.back()" class="back-link">← back</a>
 
 
 #### Intellectual Merit

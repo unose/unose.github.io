@@ -8,6 +8,32 @@ permalink: /teaching/
 
 <h1> Teaching </h1>
 
+
+<section id="course-overview">
+  <h2>Undergraduate Course Overview</h2> 
+
+  <p>
+    This <span class="overview-highlight">undergraduate Software Engineering course</span> introduces students to 
+    <span class="overview-highlight">fundamental software development practices</span> and 
+    <span class="overview-highlight">team-based engineering workflows</span>. Students learn 
+    <span class="overview-highlight">requirements and user stories</span>, 
+    <span class="overview-highlight">UML-based system modeling</span>, and 
+    <span class="overview-highlight">software architecture</span>, then apply these concepts through 
+    <span class="overview-highlight">iterative implementation</span>, 
+    <span class="overview-highlight">testing</span>, and 
+    <span class="overview-highlight">refactoring</span>. The course emphasizes 
+    <span class="overview-highlight">version control with Git</span>, 
+    <span class="overview-highlight">code reviews</span>, and 
+    <span class="overview-highlight">continuous integration</span>, helping students develop professional habits for building maintainable systems. 
+    Through projects, students practice 
+    <span class="overview-highlight">design patterns</span>, 
+    <span class="overview-highlight">layered architectures</span>, and 
+    <span class="overview-highlight">quality assurance</span>, gaining hands-on experience that connects core engineering principles to real-world development.
+  </p>
+  <a href="/teachingundergrad" class="back-link">more</a>
+</section>
+
+
 <section id="course-overview">
   <h2>Graduate Course Overview</h2>
 
@@ -93,29 +119,4 @@ permalink: /teaching/
     <span class="overview-highlight">AI-assisted engineering</span>.
   </p>
 
-</section>
-
-
-<section id="course-overview">
-  <h2>Undergraduate Course Overview</h2> 
-
-  <p>
-    This <span class="overview-highlight">undergraduate Software Engineering course</span> introduces students to 
-    <span class="overview-highlight">fundamental software development practices</span> and 
-    <span class="overview-highlight">team-based engineering workflows</span>. Students learn 
-    <span class="overview-highlight">requirements and user stories</span>, 
-    <span class="overview-highlight">UML-based system modeling</span>, and 
-    <span class="overview-highlight">software architecture</span>, then apply these concepts through 
-    <span class="overview-highlight">iterative implementation</span>, 
-    <span class="overview-highlight">testing</span>, and 
-    <span class="overview-highlight">refactoring</span>. The course emphasizes 
-    <span class="overview-highlight">version control with Git</span>, 
-    <span class="overview-highlight">code reviews</span>, and 
-    <span class="overview-highlight">continuous integration</span>, helping students develop professional habits for building maintainable systems. 
-    Through projects, students practice 
-    <span class="overview-highlight">design patterns</span>, 
-    <span class="overview-highlight">layered architectures</span>, and 
-    <span class="overview-highlight">quality assurance</span>, gaining hands-on experience that connects core engineering principles to real-world development.
-  </p>
-  <a href="/teachingundergrad" class="back-link">more</a>
 </section>

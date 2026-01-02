@@ -4,7 +4,8 @@ title: Research
 permalink: /research/
 ---
 
-<a href="https://unose.github.io" class="back-link">back</a>
+<a href="javascript:history.back()" class="back-link">← back</a>
+
 
 <h1> Research </h1>
 

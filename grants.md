@@ -9,11 +9,14 @@ permalink: /grants/
 
 ### NSF RII FEC Award #1920954
 
+
 **Data Driven Material Discovery Center for Bioengineering Innovation**
-**PI:** Dr. Robb Winter
-**Senior Personnel:** Dr. Myoungkyu Song
-**Total Award:** $6M
-**Period:** 08/2019 – 07/2023 (Completed)
+PI: Dr. Robb Winter
+Co-PIs: Dr. Parvathi Chundi, Dr. Matthew W. Fields, Dr. Bharat K. Jasthi, Dr. Carol Lushbough
+Senior Personnel: Dr. Myoungkyu Song, Dr. Peggy Huang
+Total Award: $6M
+Period: 08/2019 – 07/2023 (Completed)
+
 
 #### Project Overview
 

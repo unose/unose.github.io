@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Grant
-permalink: /grant/
+permalink: /grants/
 ---
 
 <a href="https://unose.github.io" class="back-link">back</a>

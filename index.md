@@ -70,9 +70,11 @@ permalink: /
   <p>
     <a href="research">Research</a> · 
     <a href="publications">Publications</a> · 
+    <a href="software">Software</a> · 
     <a href="grants">Grants</a> · 
     <a href="teaching">Teaching</a>
   </p>
+
 </div>
 
 <hr style="clear: both; margin-top: 30px; margin-bottom: 30px; border: 0; border-top: 1px solid #eee;">
@@ -125,3 +127,15 @@ permalink: /
     <strong>AI- and LLM-assisted software engineering</strong>.
   </li>
 </ul>
+
+<hr style="margin-top: 30px; margin-bottom: 20px; border: 0; border-top: 1px solid #eee;">
+
+<p style="font-size: 0.95em; color: #555;">
+  <strong>Ph.D. applications:</strong> Graduate administrative support is provided by
+  <strong>Emily Wiemers, M.A.</strong> (CIST).
+</p>
+
+<p style="font-size: 0.95em; color: #555;">
+  <strong>AI / LLM infrastructure:</strong> Research computing resources are supported by
+  <strong>Pat Kelley, III</strong> (CIST IT).
+</p>

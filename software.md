@@ -49,6 +49,15 @@ to improve learning outcomes in software engineering and security.
 
 <hr>
 
+### Dataset
+
+The empirical dataset used to evaluate SSD Tutor is publicly available on Figshare:
+
+- **[SSDTutor Empirical Dataset: Cryptographic API Misuse Detection, Repair, and User Study](https://doi.org/10.6084/m9.figshare.31004251)** 
+
+The dataset includes curated cryptographic API misuse examples, detection and repair results, aggregated statistics from 456 open-source projects, and anonymized user study data. It is provided to support reproducibility, comparative evaluation, and future research in secure software engineering.
+
+
 <p style="font-size: 0.9em; color: #555;">
 If you use or build upon this software, please cite the corresponding publications
 or acknowledge the associated research projects where appropriate.

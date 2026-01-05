@@ -26,7 +26,7 @@ instruction in secure software development.
 </p>
 
 <p>
-<a href="https://github.com/unosweng/ssdtutor" target="_blank">GitHub</a>
+<a href="https://github.com/unoselab/ssdtutor" target="_blank">GitHub</a>
 </p>
 
 <p>

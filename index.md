@@ -120,6 +120,15 @@ permalink: /
 
 <ul class="news-list">
   <li>
+    <strong>Aug 2025</strong> – The paper
+    <em>“SYNCode: Synergistic Human–LLM Collaboration for Enhanced Data Annotation in Stack Overflow.”</em>
+    (Xia, Maharjan, Le, Taylor, and Song) was published in <strong>Information</strong> (Vol. 16, No. 5, 2025: 392).
+    <strong>Tammy Le</strong> and <strong>Will Taylor</strong> are undergraduate researchers.
+  </li>
+</ul>
+
+<ul class="news-list">
+  <li>
     <strong>May 2025</strong> – The paper
     <em>“Automated Code Summarization by Training Large Language Models with Crowdsourced Knowledge”</em>,
     co-authored with graduate students <strong>Meng Xia</strong> and <strong>Shradha Maharjan</strong>,
